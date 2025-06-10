@@ -12,8 +12,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9281e940-0788-4482-8209-d5060a71ddc1" name="Changes" comment="">
+    <list default="true" id="9281e940-0788-4482-8209-d5060a71ddc1" name="Changes" comment="change target frameworks">
+      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.API/Controllers/RoomController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Application/Handlers/Commands/Rooms/Add/AddRoomCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Application/Handlers/Commands/Rooms/Add/AddRoomCommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Application/Handlers/Commands/Rooms/Add/AddRoomCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Application/Handlers/Queries/Rooms/GetRoomsQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Application/Handlers/Queries/Rooms/GetRoomsQueryHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Application/Handlers/Queries/Rooms/GetRoomsQueryResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Application/IoC/RenovatorAppServicesExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Domain/Entity.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RenovatorApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RenovatorApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/RenovatorApp.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/RenovatorApp.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/RenovatorApp.API/RenovatorApp.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/RenovatorApp.API/RenovatorApp.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RenovatorApp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/RenovatorApp.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +97,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="macOS.RenovatorApp.UI">
+  <component name="RunManager" selected=".NET Launch Settings Profile.RenovatorApp.API: https">
     <configuration name="RenovatorApp.Aspire: http" type="AspireHostConfiguration" factoryName="Aspire Host" activateToolWindowBeforeRun="false">
       <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Backend/Aspire/RenovatorApp.Aspire/RenovatorApp.Aspire.csproj" />
       <option name="PROJECT_TFM" value="net9.0" />
@@ -249,6 +261,15 @@
       <workItem from="1749241352861" duration="170000" />
       <workItem from="1749547174181" duration="6439000" />
     </task>
+    <task id="LOCAL-00001" summary="change target frameworks">
+      <option name="closed" value="true" />
+      <created>1749557353920</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749557353920</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +279,8 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="change target frameworks" />
+    <option name="LAST_COMMIT_MESSAGE" value="change target frameworks" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

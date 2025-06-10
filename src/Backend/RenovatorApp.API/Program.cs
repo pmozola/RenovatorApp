@@ -1,6 +1,4 @@
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.Identity.Web;
+using RenovatorApp.Application.IoC;
 using RenovatorApp.Auth;
 using Scalar.AspNetCore;
 
@@ -8,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRenovatorAuthorization(builder.Configuration);
+builder.Services.AddRenovatorAppServices();
 
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi

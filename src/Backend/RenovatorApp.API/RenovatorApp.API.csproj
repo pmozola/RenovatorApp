@@ -9,6 +9,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="MediatR" Version="12.5.0" />
         <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.0" NoWarn="NU1605"/>
         <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="9.0.0" NoWarn="NU1605"/>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0"/>
@@ -25,6 +26,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Auth\RenovatorApp.Auth\RenovatorApp.Auth.csproj" />
+      <ProjectReference Include="..\RenovatorApp.Application\RenovatorApp.Application.csproj" />
     </ItemGroup>
 
 </Project>
