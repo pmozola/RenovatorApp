@@ -1,0 +1,6 @@
+﻿services:
+  renovatorapp.api:
+    image: renovatorapp.api
+    build:
+      context: .
+      dockerfile: Backend/RenovatorApp.API/Dockerfile
