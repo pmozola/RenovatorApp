@@ -12,20 +12,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9281e940-0788-4482-8209-d5060a71ddc1" name="Changes" comment="change target frameworks">
-      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.API/Controllers/RoomController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Application/Handlers/Commands/Rooms/Add/AddRoomCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Application/Handlers/Commands/Rooms/Add/AddRoomCommandHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Application/Handlers/Commands/Rooms/Add/AddRoomCommandValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Application/Handlers/Queries/Rooms/GetRoomsQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Application/Handlers/Queries/Rooms/GetRoomsQueryHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Application/Handlers/Queries/Rooms/GetRoomsQueryResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Application/IoC/RenovatorAppServicesExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Domain/Entity.cs" afterDir="false" />
+    <list default="true" id="9281e940-0788-4482-8209-d5060a71ddc1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.API/Controllers/ShoppingListController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Application/Handlers/Commands/ShopList/BoughtItem/BoughtItemCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Application/Handlers/Commands/ShopList/NewItem/AddNewShopListItemCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Application/Handlers/Queries/ShopList/GetShopListQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Domain/NotFoundException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Domain/ShopListItem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RenovatorApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RenovatorApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/RenovatorApp.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/RenovatorApp.API/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/RenovatorApp.API/RenovatorApp.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/RenovatorApp.API/RenovatorApp.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RenovatorApp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/RenovatorApp.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RenovatorApp.Database/RenovatorDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RenovatorApp.Database/RenovatorDbContext.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="main" />
+        <entry key="$PROJECT_DIR$/.." value="initial" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -53,6 +48,8 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6d2342c247c64eb7a9b3702e481e4443f83e00/55/dd48a216/Exception.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/89c2e48006e94e89ab07a58cb2a1281a291448/65/1edbe2d1/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3d598ee7563c641ac1dcd8def12112b66d5e925dd5a612d29385bb53adf3/HttpClientJsonExtensions.Get.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/493ea29440165dd297937caaecca318704dfe5735267c4f9a160ef3c185855/IdentityApiEndpointRouteBuilderExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/504c8bdd5124a1bbe189b9d9082277bdbfeff4c69af26aa899960a929e99/WebApplicationBuilder.cs" root0="FORCE_HIGHLIGHTING" />
@@ -60,8 +57,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c8632829ff9822f035d2e01cff0577e797a0abcb20fdefcadad96998ce/HttpClientJsonExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/cb89aa36653facf3c76dc46203ea9076e985f8e30c3ea33be6ddcd1f11cbd/OpenApiEndpointRouteBuilderExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f0c16cda8a141e194c9151fd8f6acd0f93ef39e54a2a250baf2e5b2fa1fac6/WebApplication.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Frontend/RenovatorApp.UI/Platforms/MacCatalyst/AppDelegate.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Frontend/RenovatorApp.UI/Resources/Fonts/FluentUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file:///usr/local/share/dotnet/packs/Microsoft.MacCatalyst.Sdk.net9.0_18.4/18.4.9289/tools/msbuild/Xamarin.Shared.targets" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -85,7 +81,7 @@
     &quot;HTTP Request.RenovatorApp.API | #1.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;initial&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;iOS.RenovatorApp.UI.executor&quot;: &quot;Run&quot;,
     &quot;macOS.RenovatorApp.UI.executor&quot;: &quot;Run&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -97,7 +93,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.RenovatorApp.API: https">
+  <component name="RunManager" selected="macOS.RenovatorApp.UI">
     <configuration name="RenovatorApp.Aspire: http" type="AspireHostConfiguration" factoryName="Aspire Host" activateToolWindowBeforeRun="false">
       <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Backend/Aspire/RenovatorApp.Aspire/RenovatorApp.Aspire.csproj" />
       <option name="PROJECT_TFM" value="net9.0" />
@@ -196,7 +192,7 @@
         <option name="Build" />
       </method>
     </configuration>
-    <configuration name="RenovatorApp.API/Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+    <configuration name="RenovatorApp.API/Dockerfile: Compose Deployment" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
           <option name="imageTag" value="renovatorapp.api" />
@@ -243,6 +239,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="HTTP Request.RenovatorApp.API | #1" />
+        <item itemvalue="HTTP Request.RenovatorApp.API | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -260,6 +257,7 @@
       <workItem from="1749228288469" duration="1958000" />
       <workItem from="1749241352861" duration="170000" />
       <workItem from="1749547174181" duration="6439000" />
+      <workItem from="1751564647571" duration="3992000" />
     </task>
     <task id="LOCAL-00001" summary="change target frameworks">
       <option name="closed" value="true" />
@@ -277,41 +275,20 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="change target frameworks" />
     <option name="LAST_COMMIT_MESSAGE" value="change target frameworks" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Frontend/RenovatorApp.UI/Services/TestHttpService.cs</url>
-          <line>14</line>
-          <properties documentPath="$PROJECT_DIR$/Frontend/RenovatorApp.UI/Services/TestHttpService.cs" containingFunctionPresentation="Method 'Get'">
-            <startOffsets>
-              <option value="266" />
-            </startOffsets>
-            <endOffsets>
-              <option value="342" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Frontend/RenovatorApp.UI/PageModels/ProjectDetailPageModel.cs</url>
-          <line>105</line>
-          <properties documentPath="$PROJECT_DIR$/Frontend/RenovatorApp.UI/PageModels/ProjectDetailPageModel.cs" containingFunctionPresentation="Method 'LoadData'">
-            <startOffsets>
-              <option value="3647" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3683" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
