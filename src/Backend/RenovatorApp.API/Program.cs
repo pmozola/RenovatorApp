@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.HttpOverrides;
 using RenovatorApp.Application.IoC;
 using RenovatorApp.Auth;
 using Scalar.AspNetCore;
@@ -11,6 +12,12 @@ builder.Services.AddRenovatorAppServices();
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+builder.Services.Configure<ForwardedHeadersOptions>(options =>
+{
+    options.ForwardedHeaders =
+        ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
+});
+
 
 var app = builder.Build();
 
@@ -20,6 +27,7 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
     app.MapScalarApiReference();
 }
+app.UseForwardedHeaders();
 
 app.UseHttpsRedirection();
 

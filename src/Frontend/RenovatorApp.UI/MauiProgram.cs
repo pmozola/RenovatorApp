@@ -33,6 +33,7 @@ public static class MauiProgram
 #endif
 
         builder.Services.AddSingleton<ProjectRepository>();
+        builder.Services.AddSingleton<ShopListItemHttpService>();
         builder.Services.AddSingleton<TaskRepository>();
         builder.Services.AddSingleton<CategoryRepository>();
         builder.Services.AddSingleton<TagRepository>();

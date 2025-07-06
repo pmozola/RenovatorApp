@@ -4,6 +4,7 @@
     <projectFile aspireProfileName="http">Backend/Aspire/RenovatorApp.Aspire/RenovatorApp.Aspire.csproj</projectFile>
     <projectFile aspireProfileName="https">Backend/Aspire/RenovatorApp.Aspire/RenovatorApp.Aspire.csproj</projectFile>
     <projectFile profileName="https">Backend/RenovatorApp.API/RenovatorApp.API.csproj</projectFile>
+    <projectFile kind="XamarinAndroid">Frontend/RenovatorApp.UI/RenovatorApp.UI.csproj</projectFile>
     <projectFile kind="XamarinIOS">Frontend/RenovatorApp.UI/RenovatorApp.UI.csproj</projectFile>
     <projectFile kind="XamarinMacOS">Frontend/RenovatorApp.UI/RenovatorApp.UI.csproj</projectFile>
     <projectFile profileName="Windows Machine">Frontend/RenovatorApp.UI/RenovatorApp.UI.csproj</projectFile>
@@ -13,24 +14,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9281e940-0788-4482-8209-d5060a71ddc1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.API/Controllers/ShoppingListController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Application/Handlers/Commands/ShopList/BoughtItem/BoughtItemCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Application/Handlers/Commands/ShopList/NewItem/AddNewShopListItemCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Application/Handlers/Queries/ShopList/GetShopListQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Domain/NotFoundException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Domain/ShopListItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/RenovatorApp.UI/Services/ShopListItemHttpService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RenovatorApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RenovatorApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RenovatorApp.Database/RenovatorDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RenovatorApp.Database/RenovatorDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Aspire/RenovatorApp.Aspire/RenovatorApp.Aspire.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Aspire/RenovatorApp.Aspire/RenovatorApp.Aspire.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Auth/RenovatorApp.Auth/RenovatorApp.Auth.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Auth/RenovatorApp.Auth/RenovatorApp.Auth.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/RenovatorApp.API/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/RenovatorApp.API/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/RenovatorApp.API/RenovatorApp.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/RenovatorApp.API/RenovatorApp.API.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/RenovatorApp.Application/RenovatorApp.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/RenovatorApp.Application/RenovatorApp.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/RenovatorApp.UI/MauiProgram.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/RenovatorApp.UI/MauiProgram.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/RenovatorApp.UI/PageModels/ProjectListPageModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/RenovatorApp.UI/PageModels/ProjectListPageModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/RenovatorApp.UI/RenovatorApp.UI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/RenovatorApp.UI/RenovatorApp.UI.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="initial" />
+        <entry key="$PROJECT_DIR$/.." value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -57,7 +63,12 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c8632829ff9822f035d2e01cff0577e797a0abcb20fdefcadad96998ce/HttpClientJsonExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/cb89aa36653facf3c76dc46203ea9076e985f8e30c3ea33be6ddcd1f11cbd/OpenApiEndpointRouteBuilderExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f0c16cda8a141e194c9151fd8f6acd0f93ef39e54a2a250baf2e5b2fa1fac6/WebApplication.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file:///usr/local/share/dotnet/packs/Microsoft.MacCatalyst.Sdk.net9.0_18.4/18.4.9289/tools/msbuild/Xamarin.Shared.targets" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Frontend/RenovatorApp.UI/Resources/Fonts/FluentUI.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="RenovatorApp.UI/invalid/Android Facet - RenovatorApp.UI" />
+    </ignored-facets>
   </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
@@ -76,12 +87,13 @@
   &quot;keyToString&quot;: {
     &quot;.NET Launch Settings Profile.RenovatorApp.API: https.executor&quot;: &quot;Run&quot;,
     &quot;Aspire Host.RenovatorApp.Aspire: http.executor&quot;: &quot;Run&quot;,
+    &quot;Aspire Host.RenovatorApp.Aspire: https.executor&quot;: &quot;Run&quot;,
     &quot;Device#class com.jetbrains.rider.run.multiPlatform.ios.devices.IOSSimulatorKind#com.jetbrains.rider.run.multiPlatform.ios.devices.IOSDevicesProvider#iOS: RenovatorApp.UI&quot;: &quot;iPhone 16 (iOS 18.2)&quot;,
     &quot;DeviceKind#com.jetbrains.rider.run.multiPlatform.ios.devices.IOSDevicesProvider&quot;: &quot;Simulator&quot;,
     &quot;HTTP Request.RenovatorApp.API | #1.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;shopping-list&quot;,
     &quot;iOS.RenovatorApp.UI.executor&quot;: &quot;Run&quot;,
     &quot;macOS.RenovatorApp.UI.executor&quot;: &quot;Run&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -89,11 +101,11 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;AppleSettingsPageId&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSettingsPageId&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="macOS.RenovatorApp.UI">
+  <component name="RunManager" selected="Aspire Host.RenovatorApp.Aspire: https">
     <configuration name="RenovatorApp.Aspire: http" type="AspireHostConfiguration" factoryName="Aspire Host" activateToolWindowBeforeRun="false">
       <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Backend/Aspire/RenovatorApp.Aspire/RenovatorApp.Aspire.csproj" />
       <option name="PROJECT_TFM" value="net9.0" />
@@ -171,6 +183,15 @@
       <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="RenovatorApp.UI" type="XamarinAndroidProject" factoryName="Xamarin.Android">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Frontend/RenovatorApp.UI/RenovatorApp.UI.csproj" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="DEPLOY_BEHAVIOUR_NAME" value="Default" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -258,6 +279,13 @@
       <workItem from="1749241352861" duration="170000" />
       <workItem from="1749547174181" duration="6439000" />
       <workItem from="1751564647571" duration="3992000" />
+      <workItem from="1751568654692" duration="1714000" />
+      <workItem from="1751574651616" duration="1789000" />
+      <workItem from="1751618908640" duration="1472000" />
+      <workItem from="1751622860253" duration="12014000" />
+      <workItem from="1751656950191" duration="1364000" />
+      <workItem from="1751658319411" duration="43000" />
+      <workItem from="1751743969832" duration="851000" />
     </task>
     <task id="LOCAL-00001" summary="change target frameworks">
       <option name="closed" value="true" />
@@ -267,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749557353920</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add commands and handlers">
+      <option name="closed" value="true" />
+      <created>1751568710099</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751568710099</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +325,11 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="change target frameworks" />
-    <option name="LAST_COMMIT_MESSAGE" value="change target frameworks" />
+    <MESSAGE value="add commands and handlers" />
+    <option name="LAST_COMMIT_MESSAGE" value="add commands and handlers" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
